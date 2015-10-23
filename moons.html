@@ -2,8 +2,8 @@
 <html lang="en-ca">
 <head>
 	<meta charset="UTF-8">
-	<title>Planat Website</title>
-	<link href="css/grids.css" rel="stylesheet">
+	<title>Planet Website</title>
+	<link href="css/grid.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
 	<meta name="handheldfriendly" content="true">
 	<meta name="mobileoptimized" content="240">
@@ -11,30 +11,43 @@
 </head>
 <body>
 
-<div>
-	<nav>
-		<h1>Venus</h1>
-		<ul>
-	        <li><a href="#">Planet</a></li>
-	        <li><a href="#">Moons</a></li>
-	        <li><a href="#">Exploration</a></li>
-      	</ul>
-	</nav>
-</div>
+<nav>
+	<h1 class="header">Venus</h1>
+	<ul>
+	    <li><a href="#">Planet</a></li>
+	    <li><a href="#">Moons</a></li>
+	    <li><a href="#">Exploration</a></li>
+    </ul>
+</nav>
 
 <h2>Moons</h2>
 
-<div>
-	<div>
-		<img class="img-flex" src="images/venus-moon-1.jpg" alt="Fake Moon">
-		<h2>Venus’s Fake Moon 1</h2>
-		<p>This moon is amazing it looks like it’s habitable by humans.</p>
+<div class="grid">
+	
+	<div class="unit sx-1 s-1 m-1-2 l-1-2">
+		<div class="grid">
+			<div class="unit sx-1 s-1 m-1 l-1-2">
+				<img class="img-flex" src="images/venus-moon-1.jpg" alt="Fake Moon">
+			</div>
+			<div class="unit sx-1 s-1 m-1 l-1-2">
+				<h2>Venus’s Fake Moon 1</h2>
+				<p>This moon is amazing it looks like it’s habitable by humans.</p>
+			</div>
+		</div>
 	</div>
-	<div>
-		<img class="img-flex" src="images/venus-moon-2.jpg" alt="Fake Moon">
-		<h2>Venus’s Fake Moon 2</h2>
-		<p>Look at all the pretty colours of this moon—mustn’t be real-colour.</p>
+
+	<div class="unit sx-1 s-1 m-1-2 l-1-2">
+		<div class="grid">
+			<div class="unit sx-1 s-1 m-1 l-1-2">
+				<img class="img-flex" src="images/venus-moon-2.jpg" alt="Fake Moon">
+			</div>
+			<div class="unit sx-1 s-1 m-1 l-1-2">
+				<h2>Venus’s Fake Moon 2</h2>
+				<p>Look at all the pretty colours of this moon—mustn’t be real-colour.</p>
+			</div>
+		</div>
 	</div>
+
 </div>
 
 </body>
