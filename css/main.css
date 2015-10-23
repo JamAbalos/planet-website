@@ -23,6 +23,15 @@ body {
 	padding: 0;
 }
 
+nav {
+	background-color: lightgrey;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
 .img-flex {
 	display: block;
 	width: 100%;
