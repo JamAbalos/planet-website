@@ -43,6 +43,12 @@ a {
 	text-decoration: none;
 }
 
+nav .current {
+	background-color: grey;
+	color: #fff;
+	padding: .5em;
+}
+
 .img-flex {
 	display: block;
 	width: 100%;
